@@ -4,14 +4,14 @@
 #include <math.h>
 
 #define STB_IMAGE_WRITE_IMPLEMENTATION
-#include <stb_image_write.h>
+#include "stb_image_write.h"
 #define JULIA
 
 void writeImage(int,int,char*,char*,int);
 
 int main(int argc) {
-    int sizex = 10000;
-    int sizey = 10000;
+    int sizex = 500;
+    int sizey = 500;
     double a = 4;
     double b = 4;
     double xmin = -2.0;
